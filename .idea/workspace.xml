@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6a21769-93a4-4c4c-94f7-b00224f36370" name="Default Changelist" comment="" />
+    <list default="true" id="f6a21769-93a4-4c4c-94f7-b00224f36370" name="Default Changelist" comment="1.">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-zb/src/main/java/com/zb/java基础/Math.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-zb/src/main/java/com/zb/thread_study/RunnabelDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-zb/target/classes/META-INF/provider-zb.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-zb/target/classes/com/zb/java基础/Math.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-zb/target/classes/com/zb/thread_study/RunnabelDemo01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-zb/target/classes/com/zb/java基础/equals.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-zb/target/classes/com/zb/java基础/equals.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +38,10 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -42,6 +55,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1Z1b5b3rpIlFildKQmVCTOQSBAh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -71,7 +87,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.equals">
+  <component name="RunManager" selected="Application.Math">
     <configuration name="DateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zb.java8.DateTest" />
       <module name="provider-zb" />
@@ -98,8 +114,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="equals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zb.java基础.equals" />
+    <configuration name="Math" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zb.java基础.Math" />
       <module name="provider-zb" />
       <extension name="coverage">
         <pattern>
@@ -111,18 +127,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="RunnabelDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zb.thread_study.RunnabelDemo01" />
       <module name="provider-zb" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zb.*" />
+          <option name="PATTERN" value="com.zb.thread_study.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zb.ProviderApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="equals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zb.java基础.equals" />
+      <module name="provider-zb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zb.java基础.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,10 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Math" />
+        <item itemvalue="Application.RunnabelDemo01" />
         <item itemvalue="Application.equals" />
         <item itemvalue="Application.HashMapDemo1" />
         <item itemvalue="Application.DateTest" />
-        <item itemvalue="Spring Boot.ProviderApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +200,7 @@
       <workItem from="1584608042820" duration="3239000" />
       <workItem from="1585021081614" duration="3306000" />
       <workItem from="1591719056960" duration="8368000" />
-      <workItem from="1592234101143" duration="1231000" />
+      <workItem from="1592234101143" duration="5794000" />
     </task>
     <servers />
   </component>
@@ -189,30 +216,42 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1585021305676" />
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1592242134600">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1592242134600" />
     <state x="457" y="241" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1585021249913">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="457" y="241" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1585021249913" />
+    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1592403850189">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592403850189" />
+    <state x="144" y="78" key="DiffContextDialog" timestamp="1592403848400">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="144" y="78" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1592403848400" />
     <state x="523" y="373" key="Github.CreateGistDialog" timestamp="1592235740901">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="523" y="373" key="Github.CreateGistDialog/0.0.1440.900@0.0.1440.900" timestamp="1592235740901" />
-    <state width="1398" height="149" key="GridCell.Tab.0.bottom" timestamp="1591901515147">
+    <state width="1398" height="225" key="GridCell.Tab.0.bottom" timestamp="1592403867289">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="149" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591901515147" />
-    <state width="1398" height="149" key="GridCell.Tab.0.center" timestamp="1591901515146">
+    <state width="1398" height="225" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592403867289" />
+    <state width="1398" height="225" key="GridCell.Tab.0.center" timestamp="1592403867288">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="149" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591901515146" />
-    <state width="1398" height="149" key="GridCell.Tab.0.left" timestamp="1591901515145">
+    <state width="1398" height="225" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592403867288" />
+    <state width="1398" height="225" key="GridCell.Tab.0.left" timestamp="1592403867287">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="149" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591901515145" />
-    <state width="1398" height="149" key="GridCell.Tab.0.right" timestamp="1591901515147">
+    <state width="1398" height="225" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592403867287" />
+    <state width="1398" height="225" key="GridCell.Tab.0.right" timestamp="1592403867288">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="149" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591901515147" />
+    <state width="1398" height="225" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592403867288" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1591898934510">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -237,6 +276,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1584609445564" />
+    <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592404259437">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1592404259437" />
     <state x="97" y="147" key="new project wizard" timestamp="1584009973203">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
