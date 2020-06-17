@@ -194,6 +194,7 @@
       <workItem from="1585021081614" duration="3306000" />
       <workItem from="1591719056960" duration="8368000" />
       <workItem from="1592234101143" duration="6618000" />
+      <workItem from="1592408429258" duration="535000" />
     </task>
     <task id="LOCAL-00001" summary="1.增加java基础中==和equals的对比，以及随机数的java计算&#10;2.增加多线程中的示例">
       <created>1592404442181</created>
@@ -209,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592408131153</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1.测试">
+      <created>1592408510725</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592408510725</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,14 +287,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="457" y="241" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1585021249913" />
-    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1592408233771">
+    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1592409766217">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592408233771" />
-    <state x="144" y="78" key="DiffContextDialog" timestamp="1592404525110">
+    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592409766217" />
+    <state x="144" y="78" key="DiffContextDialog" timestamp="1592409751679">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="144" y="78" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1592404525110" />
+    <state x="144" y="78" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1592409751679" />
     <state x="523" y="373" key="Github.CreateGistDialog" timestamp="1592235740901">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -331,10 +339,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1592404682659" />
-    <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592408487170">
+    <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592409669874">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1592408487170" />
+    <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1592409669874" />
     <state x="97" y="147" key="new project wizard" timestamp="1584009973203">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
