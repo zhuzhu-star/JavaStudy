@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6a21769-93a4-4c4c-94f7-b00224f36370" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f6a21769-93a4-4c4c-94f7-b00224f36370" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -194,7 +192,7 @@
       <workItem from="1585021081614" duration="3306000" />
       <workItem from="1591719056960" duration="8368000" />
       <workItem from="1592234101143" duration="6618000" />
-      <workItem from="1592408429258" duration="535000" />
+      <workItem from="1592408429258" duration="832000" />
     </task>
     <task id="LOCAL-00001" summary="1.增加java基础中==和equals的对比，以及随机数的java计算&#10;2.增加多线程中的示例">
       <created>1592404442181</created>
@@ -217,7 +215,42 @@
       <option name="project" value="LOCAL" />
       <updated>1592408510725</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1.新建lambda测试类">
+      <created>1592409766395</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592409766395</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1.新建lambda测试类">
+      <created>1592409777685</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592409777685</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1.新建lambda测试类">
+      <created>1592409811985</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592409811985</updated>
+    </task>
+    <task id="LOCAL-00007" summary="1.新建lambda测试类">
+      <created>1592409822734</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1592409822734</updated>
+    </task>
+    <task id="LOCAL-00008" summary="1.新建lambda测试类">
+      <created>1592409830832</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1592409830832</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +297,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="1.增加java基础中==和equals的对比，以及随机数的java计算&#10;2.增加多线程中的示例" />
     <MESSAGE value="1.测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.测试" />
+    <MESSAGE value="1.新建lambda测试类" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.新建lambda测试类" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#Project_Structure" timestamp="1584608158255">
@@ -287,14 +321,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="457" y="241" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1585021249913" />
-    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1592409822562">
+    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1592409830667">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592409822562" />
-    <state x="144" y="78" key="DiffContextDialog" timestamp="1592409820598">
+    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592409830667" />
+    <state x="144" y="78" key="DiffContextDialog" timestamp="1592409828438">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="144" y="78" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1592409820598" />
+    <state x="144" y="78" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1592409828438" />
     <state x="523" y="373" key="Github.CreateGistDialog" timestamp="1592235740901">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -339,10 +373,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1592404682659" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1592409781882">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1592409865649">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592409781882" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592409865649" />
     <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592409669874">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
