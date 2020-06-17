@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6a21769-93a4-4c4c-94f7-b00224f36370" name="Default Changelist" comment="1.增加java基础中==和equals的对比，以及随机数的java计算&#10;2.增加多线程中的示例">
+    <list default="true" id="f6a21769-93a4-4c4c-94f7-b00224f36370" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -146,53 +146,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="JavaStudy" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="JavaStudy" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="provider-zb" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zb.ProviderApplication" />
@@ -240,7 +193,7 @@
       <workItem from="1584608042820" duration="3239000" />
       <workItem from="1585021081614" duration="3306000" />
       <workItem from="1591719056960" duration="8368000" />
-      <workItem from="1592234101143" duration="6543000" />
+      <workItem from="1592234101143" duration="6618000" />
     </task>
     <task id="LOCAL-00001" summary="1.增加java基础中==和equals的对比，以及随机数的java计算&#10;2.增加多线程中的示例">
       <created>1592404442181</created>
@@ -249,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592404442181</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.测试">
+      <created>1592408131153</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592408131153</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +255,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="1.增加java基础中==和equals的对比，以及随机数的java计算&#10;2.增加多线程中的示例" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.增加java基础中==和equals的对比，以及随机数的java计算&#10;2.增加多线程中的示例" />
+    <MESSAGE value="1.测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.测试" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#Project_Structure" timestamp="1584608158255">
@@ -318,10 +279,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="457" y="241" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1585021249913" />
-    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1592404566011">
+    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1592408131033">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592404566011" />
+    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592408131033" />
     <state x="144" y="78" key="DiffContextDialog" timestamp="1592404525110">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -330,22 +291,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="523" y="373" key="Github.CreateGistDialog/0.0.1440.900@0.0.1440.900" timestamp="1592235740901" />
-    <state width="1398" height="225" key="GridCell.Tab.0.bottom" timestamp="1592403867289">
+    <state width="1398" height="225" key="GridCell.Tab.0.bottom" timestamp="1592408192147">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="225" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592403867289" />
-    <state width="1398" height="225" key="GridCell.Tab.0.center" timestamp="1592403867288">
+    <state width="1398" height="225" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592408192147" />
+    <state width="1398" height="225" key="GridCell.Tab.0.center" timestamp="1592408192141">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="225" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592403867288" />
-    <state width="1398" height="225" key="GridCell.Tab.0.left" timestamp="1592403867287">
+    <state width="1398" height="225" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592408192141" />
+    <state width="1398" height="225" key="GridCell.Tab.0.left" timestamp="1592408192140">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="225" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592403867287" />
-    <state width="1398" height="225" key="GridCell.Tab.0.right" timestamp="1592403867288">
+    <state width="1398" height="225" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592408192140" />
+    <state width="1398" height="225" key="GridCell.Tab.0.right" timestamp="1592408192141">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="225" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592403867288" />
+    <state width="1398" height="225" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592408192141" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1591898934510">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
