@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6a21769-93a4-4c4c-94f7-b00224f36370" name="Default Changelist" comment="1.">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-zb/src/main/java/com/zb/java基础/Math.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-zb/src/main/java/com/zb/thread_study/RunnabelDemo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-zb/target/classes/META-INF/provider-zb.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-zb/target/classes/com/zb/java基础/Math.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-zb/target/classes/com/zb/thread_study/RunnabelDemo01.class" afterDir="false" />
+    <list default="true" id="f6a21769-93a4-4c4c-94f7-b00224f36370" name="Default Changelist" comment="1.增加java基础中==和equals的对比，以及随机数的java计算&#10;2.增加多线程中的示例">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-zb/target/classes/com/zb/java基础/equals.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-zb/target/classes/com/zb/java基础/equals.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +70,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -153,6 +146,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="JavaStudy" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="JavaStudy" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="provider-zb" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zb.ProviderApplication" />
@@ -200,18 +240,72 @@
       <workItem from="1584608042820" duration="3239000" />
       <workItem from="1585021081614" duration="3306000" />
       <workItem from="1591719056960" duration="8368000" />
-      <workItem from="1592234101143" duration="5794000" />
+      <workItem from="1592234101143" duration="6543000" />
     </task>
+    <task id="LOCAL-00001" summary="1.增加java基础中==和equals的对比，以及随机数的java计算&#10;2.增加多线程中的示例">
+      <created>1592404442181</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592404442181</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="1.增加java基础中==和equals的对比，以及随机数的java计算&#10;2.增加多线程中的示例" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.增加java基础中==和equals的对比，以及随机数的java计算&#10;2.增加多线程中的示例" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#Project_Structure" timestamp="1584608158255">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1584608158255" />
+    <state x="316" y="132" key="#TODO" timestamp="1592404289637">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="316" y="132" key="#TODO/0.0.1440.900@0.0.1440.900" timestamp="1592404289637" />
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585021305676">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -224,14 +318,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="457" y="241" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1585021249913" />
-    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1592403850189">
+    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1592404566011">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592403850189" />
-    <state x="144" y="78" key="DiffContextDialog" timestamp="1592403848400">
+    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592404566011" />
+    <state x="144" y="78" key="DiffContextDialog" timestamp="1592404525110">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="144" y="78" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1592403848400" />
+    <state x="144" y="78" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1592404525110" />
     <state x="523" y="373" key="Github.CreateGistDialog" timestamp="1592235740901">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -272,10 +366,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="308" y="192" key="IDE.errors.dialog/0.0.1440.900@0.0.1440.900" timestamp="1583926801179" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1584609445564">
+    <state x="221" y="89" key="SettingsEditor" timestamp="1592404682659">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1584609445564" />
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1592404682659" />
     <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592404259437">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
