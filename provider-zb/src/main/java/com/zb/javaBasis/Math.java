@@ -1,4 +1,4 @@
-package com.zb.java基础;
+package com.zb.javaBasis;
 
 import java.util.Random;
 
