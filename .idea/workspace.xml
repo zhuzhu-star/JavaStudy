@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6a21769-93a4-4c4c-94f7-b00224f36370" name="Default Changelist" comment="1.java基础代码新增">
-      <change afterPath="$PROJECT_DIR$/.idea/JavaStudy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="f6a21769-93a4-4c4c-94f7-b00224f36370" name="Default Changelist" comment="fixup! 1.java基础代码新增">
+      <change afterPath="$PROJECT_DIR$/provider-zb/target/classes/com/zb/java8/LambdaDemo01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-zb/target/classes/com/zb/javaBasis/BreakAndContinue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-zb/target/classes/com/zb/javaBasis/Math.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-zb/target/classes/com/zb/javaBasis/equals.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-zb/target/classes/com/zb/thread_study/ThreadDemo01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-zb/target/classes/META-INF/provider-zb.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/provider-zb/target/classes/META-INF/provider-zb.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-zb/target/classes/com/zb/java基础/Math.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-zb/target/classes/com/zb/java基础/equals.class" beforeDir="false" />
+    </list>
+    <list id="56dbe9f2-ed8a-4326-a258-4b1687c88e38" name="Revert &quot;1.java基础代码新增&quot;" comment="Revert &quot;1.java基础代码新增&quot;&#10;&#10;This reverts commit 34002119">
+      <change afterPath="$PROJECT_DIR$/provider-zb/provider-zb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-zb/src/main/java/com/zb/javaBasis/BreakAndContinue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-zb/src/main/java/com/zb/javaBasis/Math.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-zb/src/main/java/com/zb/java基础/Math.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-zb/src/main/java/com/zb/javaBasis/equals.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-zb/src/main/java/com/zb/java基础/equals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-zb/src/main/java/com/zb/thread_study/ThreadDemo01.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,18 +44,11 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaStudy" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/provider-zb/src/main/java/com/zb/javaBasis/BreakAndContinue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -77,6 +78,12 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="1295" />
@@ -92,7 +99,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,20 +141,11 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="zb" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-zb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zb" type="462c0819:PsiDirectoryNode" />
-              <item name="javaBasis" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -312,7 +309,7 @@
       <workItem from="1592531960993" duration="23000" />
       <workItem from="1592819970148" duration="1562000" />
       <workItem from="1593333540116" duration="873000" />
-      <workItem from="1595302297883" duration="1049000" />
+      <workItem from="1595302297883" duration="3063000" />
     </task>
     <task id="LOCAL-00001" summary="1.增加java基础中==和equals的对比，以及随机数的java计算&#10;2.增加多线程中的示例">
       <created>1592404442181</created>
@@ -377,53 +374,70 @@
       <option name="project" value="LOCAL" />
       <updated>1595302969998</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="1.java基础代码新增">
+      <created>1595303403392</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1595303403393</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4146000" />
+    <option name="totallyTimeSpent" value="6160000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1738255" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.1738255" />
+      <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.1738255" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.50106156" side_tool="true" weight="0.1738255" />
+      <window_info id="Web" order="7" sideWeight="0.50106156" side_tool="true" weight="0.1738255" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32905984" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32905984" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32905984" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3019943" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.1818792" side_tool="true" weight="0.32905984" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32905984" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32905984" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.8181208" visible="true" weight="0.32905984" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32905984" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3295302" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
-      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Word Book" order="6" side_tool="true" weight="0.3295302" />
+      <window_info anchor="right" id="Database" order="7" weight="0.3295302" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.3295302" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -455,6 +469,26 @@
                     </value>
                   </entry>
                 </map>
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
               </option>
               <option name="COLUMN_ORDER">
                 <list>
@@ -499,94 +533,54 @@
     <option name="LAST_COMMIT_MESSAGE" value="1.java基础代码新增" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="115" key="#Project_Structure" timestamp="1584608158255">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="320" y="115" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1584608158255" />
-    <state x="316" y="132" key="#TODO" timestamp="1592404289637">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="316" y="132" key="#TODO/0.0.1440.900@0.0.1440.900" timestamp="1592404289637" />
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585021305676">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1585021305676" />
-    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1592242134600">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1592242134600" />
-    <state x="457" y="241" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1585021249913">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="457" y="241" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1585021249913" />
-    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1592409888220">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592409888220" />
-    <state x="144" y="78" key="DiffContextDialog" timestamp="1592409828438">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="144" y="78" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1592409828438" />
-    <state x="523" y="373" key="Github.CreateGistDialog" timestamp="1592235740901">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="523" y="373" key="Github.CreateGistDialog/0.0.1440.900@0.0.1440.900" timestamp="1592235740901" />
-    <state width="1398" height="225" key="GridCell.Tab.0.bottom" timestamp="1592408192147">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="225" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592408192147" />
-    <state width="1398" height="225" key="GridCell.Tab.0.center" timestamp="1592408192141">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="225" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592408192141" />
-    <state width="1398" height="225" key="GridCell.Tab.0.left" timestamp="1592408192140">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="225" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592408192140" />
-    <state width="1398" height="225" key="GridCell.Tab.0.right" timestamp="1592408192141">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="225" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592408192141" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1591898934510">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591898934510" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1591898934509">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1591898934509" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1591898934508">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1591898934508" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1591898934509">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1591898934509" />
-    <state x="308" y="192" key="IDE.errors.dialog" timestamp="1583926801179">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="308" y="192" key="IDE.errors.dialog/0.0.1440.900@0.0.1440.900" timestamp="1583926801179" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1592404682659">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1592404682659" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1592409865649">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592409865649" />
-    <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592409669874">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1592409669874" />
-    <state x="97" y="147" key="new project wizard" timestamp="1584009973203">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="97" y="147" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1584009973203" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1591899476434">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1591899476433" />
+    <state x="320" y="115" key="#Project_Structure" />
+    <state x="320" y="115" key="#Project_Structure/0.0.1440.900@0.0.1440.900" />
+    <state x="316" y="132" key="#TODO" />
+    <state x="316" y="132" key="#TODO/0.0.1440.900@0.0.1440.900" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" />
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" />
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" />
+    <state x="457" y="241" key="#com.intellij.ide.util.TreeClassChooserDialog" />
+    <state x="457" y="241" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" />
+    <state x="303" y="52" key="CommitChangelistDialog2" />
+    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" />
+    <state x="144" y="78" key="DiffContextDialog" />
+    <state x="144" y="78" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" />
+    <state x="523" y="373" key="Github.CreateGistDialog" />
+    <state x="523" y="373" key="Github.CreateGistDialog/0.0.1440.900@0.0.1440.900" />
+    <state width="1398" height="225" key="GridCell.Tab.0.bottom" />
+    <state width="1398" height="225" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" />
+    <state width="1398" height="225" key="GridCell.Tab.0.center" />
+    <state width="1398" height="225" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" />
+    <state width="1398" height="225" key="GridCell.Tab.0.left" />
+    <state width="1398" height="225" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" />
+    <state width="1398" height="225" key="GridCell.Tab.0.right" />
+    <state width="1398" height="225" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" />
+    <state x="308" y="192" key="IDE.errors.dialog" />
+    <state x="308" y="192" key="IDE.errors.dialog/0.0.1440.900@0.0.1440.900" />
+    <state x="221" y="89" key="SettingsEditor" />
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" />
+    <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" />
+    <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" />
+    <state x="97" y="147" key="new project wizard" />
+    <state x="97" y="147" key="new project wizard/0.0.1440.900@0.0.1440.900" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/lang/Runnable.java">
@@ -633,8 +627,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/provider-zb/src/main/java/com/zb/javaBasis/BreakAndContinue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
