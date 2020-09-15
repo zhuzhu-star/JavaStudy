@@ -1,4 +1,4 @@
-package com.zb.javaBasis;
+package com.zb.javaBasic;
 
 import org.springframework.stereotype.Component;
 
