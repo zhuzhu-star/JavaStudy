@@ -1,4 +1,4 @@
-package com.zb.javaBasic;
+package com.zb.javaBasic.javaBasicTest;
 
 /**
  * break是跳出当前循环，continue是结束本次循环，提前进入下次循环
