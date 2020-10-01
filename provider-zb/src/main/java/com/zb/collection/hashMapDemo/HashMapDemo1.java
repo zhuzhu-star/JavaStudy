@@ -1,4 +1,4 @@
-package com.zb.集合.hashMapDemo;
+package com.zb.collection.hashMapDemo;
 
 import org.springframework.stereotype.Component;
 import java.util.HashMap;
