@@ -1,4 +1,4 @@
-package com.zb.thread_study;
+package com.zb.threadTest;
 
 public class ThreadDemo01 extends Thread{
 

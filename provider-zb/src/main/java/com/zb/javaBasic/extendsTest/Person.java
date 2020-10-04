@@ -8,4 +8,10 @@ package com.zb.javaBasic.extendsTest;
  * @version: 1.0
  */
 public class Person extends Animals{
+    public static void main(String[] args) {
+        Animals animals = new Animals();
+        animals.setName("animals");
+        Person person = new Person();
+        System.out.println(person.getName());
+    }
 }

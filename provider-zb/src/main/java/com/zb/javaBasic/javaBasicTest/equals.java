@@ -25,6 +25,7 @@ public class equals {
         if (a.equals(b)) {
             flag2 = true;
         }
+
         System.out.println("a==b 的结果是:" + flag1);
         System.out.println("a.equals(b)的结果是:" + flag2);
 
@@ -61,6 +62,10 @@ public class equals {
         }
         System.out.println("基本数据类型==比较结果为：" + flag3);
         System.out.println("基本数据类型e.quals()比较结果为：" + flag4);
+
+        Integer i1 = 2;
+        Integer i2 = 2;
+        System.out.println("i1 == i2 的结果是" + (i1 == i2));
     }
 
 }

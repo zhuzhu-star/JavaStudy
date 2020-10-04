@@ -1,4 +1,4 @@
-package com.zb.thread_study;
+package com.zb.threadTest;
 
 import lombok.SneakyThrows;
 import java.util.ArrayList;
