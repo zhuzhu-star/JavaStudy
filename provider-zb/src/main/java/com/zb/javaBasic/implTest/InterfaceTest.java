@@ -1,6 +1,8 @@
 package com.zb.javaBasic.implTest;
 
-public interface InterfaceTest {
+public interface InterfaceTest extends InterfaceTestTwo{
 
-    void test();
+    public static String name = null;
+
+    public void test();
 }

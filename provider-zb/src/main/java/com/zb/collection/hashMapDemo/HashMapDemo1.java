@@ -1,6 +1,8 @@
 package com.zb.collection.hashMapDemo;
 
 import org.springframework.stereotype.Component;
+
+import java.io.*;
 import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Map;
@@ -13,7 +15,7 @@ import java.util.Map;
 * @version: 1.0
 */
 
-    class Student {
+    class Student implements Externalizable {
         private Integer id;
 
         public Integer getId() {
@@ -22,7 +24,15 @@ import java.util.Map;
         public Student(Integer id) {
             this.id = id;
         }
+
+    public void writeExternal(ObjectOutput out) throws IOException {
+
     }
+
+    public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
+
+    }
+}
 
 @Component
 public class HashMapDemo1 {
@@ -35,5 +45,8 @@ public static void main(String[] args){
     System.out.println(hashMap);
     System.out.println(s1.equals(s2));
     Map<String,Integer> hashTable = new Hashtable<String, Integer>();
+
+    Map<String,String> table = new Hashtable<String, String>();
+    table.put("null",null);
 }
 }

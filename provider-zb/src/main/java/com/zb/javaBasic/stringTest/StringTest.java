@@ -26,7 +26,11 @@ public class StringTest {
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("stringBuilder");
 
-        System.out.print(stringBuffer);
-        System.out.print(stringBuilder);
+        System.out.println(stringBuffer);
+        System.out.println(stringBuilder);
+
+        String a = "ab";
+        String b = "a" + "b";
+        System.out.println(a == b);
     }
 }
