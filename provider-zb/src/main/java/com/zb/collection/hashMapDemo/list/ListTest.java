@@ -38,4 +38,13 @@ public class ListTest {
         }
     }
 
+    //定义一个泛型类
+    class Test<T>{
+        private T name;
+
+        public Test(T name){
+            name = this.name;
+        }
+    }
+
 }

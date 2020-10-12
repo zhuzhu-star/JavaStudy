@@ -10,11 +10,6 @@ package com.zb.javaBasic.implTest;
 public class MainTest implements InterfaceTest{
 
     @Override
-    public void test() {
-
-    }
-
-    @Override
     public void testTwo() {
 
     }

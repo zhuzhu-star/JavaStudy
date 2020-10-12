@@ -14,4 +14,8 @@ public abstract class AbstractTest {
     public static void test() {
 
     }
+
+    public static void eat() {
+
+    }
 }

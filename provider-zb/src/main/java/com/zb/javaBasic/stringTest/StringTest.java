@@ -32,5 +32,10 @@ public class StringTest {
         String a = "ab";
         String b = "a" + "b";
         System.out.println(a == b);
+        //String转数组
+        char[] c = a.toCharArray();
+        for(char cr : c) {
+            System.out.println(cr);
+        }
     }
 }
