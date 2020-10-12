@@ -4,5 +4,7 @@ public interface InterfaceTest extends InterfaceTestTwo{
 
     public static String name = null;
 
-    public void test();
+    public static void test(){
+
+    };
 }

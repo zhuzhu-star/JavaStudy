@@ -2,6 +2,8 @@ package com.zb.threadTest;
 
 public class ThreadDemo01 extends Thread{
 
+    public static int age = 18;
+
     Thread t1 = new Thread("2");
 
     public ThreadDemo01(String id){
@@ -21,4 +23,10 @@ public class ThreadDemo01 extends Thread{
 
     }
 
+    public static void main(String[] args) {
+        ThreadDemo01 threadDemo01 = new ThreadDemo01("实例1");
+        ThreadDemo01 threadDemo02 = new ThreadDemo01("实例2");
+        threadDemo01.age = 20;
+        System.out.println(threadDemo02.age);
+    }
 }
