@@ -1,5 +1,6 @@
 package com.zb.ssm.spring.transactionTest;
 
+import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Transactional;
 
 /**
@@ -11,7 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
  */
 public class TransactionTestOne {
 
-    @Transactional(readOnly = false,rollbackFor = Exception.class)
+    @Transactional(readOnly = false,rollbackFor = Exception.class,isolation = Isolation.SERIALIZABLE )
     public void test() {
 
     }

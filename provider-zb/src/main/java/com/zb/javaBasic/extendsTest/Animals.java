@@ -13,6 +13,7 @@ import java.io.Serializable;
 public class Animals implements Serializable {
 
     private transient String name;
+    private String id;
 
     void setName(String name){
         this.name = name;
