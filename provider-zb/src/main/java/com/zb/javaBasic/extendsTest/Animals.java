@@ -4,10 +4,12 @@ import org.hibernate.validator.internal.util.privilegedactions.LoadClass;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
+import java.nio.channels.Channel;
 
 /**
  * @author ：zhubin
@@ -36,7 +38,6 @@ public class Animals implements Serializable {
     public static final void test(){
 
     }
-
     public static String test(String s){
         return s;
     }
