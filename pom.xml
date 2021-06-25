@@ -27,7 +27,6 @@
         <tjdp.orm.version>1.0.2-RELEASE</tjdp.orm.version>
         <db2.version>10.1</db2.version>
         <oracle.version>12.1.0.2</oracle.version>
-        <outputDirectory.path>/home/apps/xmbank-dm/lib</outputDirectory.path>
         <maven.version>3.1</maven.version>
         <dubbo-spring-boot-starter.version>0.2.0</dubbo-spring-boot-starter.version>
     </properties>
